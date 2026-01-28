@@ -1,4 +1,67 @@
+/* Universal Styles */
+
 .quicksand {
-  font-family: "Quicksand", sans-serif;
-  font-style: normal;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+}
+
+header, main {
+    max-width: 1160px;
+    margin: auto;
+}
+
+/* Styles for Bigger screens */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-container img {
+    width: 60px;
+}
+
+.link-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.link-container li a {
+    text-decoration: none;
+        font-weight: 700;
+}
+
+.home a {
+    color: #FEA301;
+}
+
+.about a {
+    color: #01ACFD ;
+}
+
+.facilities a {
+    color: #05D4DF;
+}
+
+.admission a {
+    color: #5D58EF;
+}
+
+.primary-btn {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 14px 50px;
+    color: white;
+    background-color: #FEA301 ;
+    border: none;
+    border-radius: 12px;
 }
