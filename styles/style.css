@@ -5,7 +5,8 @@
     font-style: normal;
 }
 
-header, main {
+header,
+main {
     max-width: 1160px;
     margin: auto;
 }
@@ -42,7 +43,7 @@ header, main {
 
 .link-container li a {
     text-decoration: none;
-        font-weight: 700;
+    font-weight: 700;
 }
 
 .home a {
@@ -50,7 +51,7 @@ header, main {
 }
 
 .about a {
-    color: #01ACFD ;
+    color: #01ACFD;
 }
 
 .facilities a {
@@ -66,7 +67,7 @@ header, main {
     font-size: 16px;
     padding: 14px 50px;
     color: white;
-    background-color: #FEA301 ;
+    background-color: #FEA301;
     border: none;
     border-radius: 12px;
 }
@@ -74,7 +75,7 @@ header, main {
 .banner {
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     gap: 50px;
 }
 
@@ -93,6 +94,7 @@ header, main {
 .banner-description {
     font-weight: 500;
     font-size: 20px;
+    margin-bottom: 36px;
 }
 
 .secondary-btn {
@@ -100,7 +102,85 @@ header, main {
     font-size: 16px;
     padding: 14px 50px;
     color: white;
-    background-color: black ;
+    background-color: black;
     border: none;
     border-radius: 12px;
+}
+
+.curriculum {
+    padding: 60px 0px;
+    background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 80px;
+}
+
+.curriculum-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+}
+
+.curriculum-card {
+    padding: 56px 26px;
+    border-radius: 16px;
+}
+
+.curriculum-card img {
+    width: 120px;
+    height: 120px;
+}
+
+.blue-card {
+    border: 1px solid #01adfd2c;
+    background-image: linear-gradient(to top, white, white, white, white, white, #01adfd2c);
+}
+
+.curriculum-card-title {
+    font-size: 26px;
+}
+
+.curriculum-card-description {
+    font-size: 18;
+    font-weight: 500;
+    color: #808080 ;
+    line-height: 30px;
+}
+
+.yellow-card {
+    border: 1px solid #fea10142;
+    background-image: linear-gradient(to top, white, white, white, white, white, #fea10142);
+}
+
+.curriculum-btn {
+    margin-top: 30px;
+    border: none;
+    background: none;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.blue-btn {
+    color: #01ACFD;
+}
+
+.yellow-btn {
+    color: #FEA301;
+}
+
+.purple-btn {
+    color: #5D58EF;
+}
+
+.purple-card {
+    border: 1px solid #5d58ef3a;
+    background-image: linear-gradient(to top, white, white, white, white, white, #5d58ef3a);
 }
