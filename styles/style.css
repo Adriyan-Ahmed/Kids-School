@@ -5,8 +5,26 @@
     font-style: normal;
 }
 
-header,
-main {
+* {
+    margin: 0px;
+}
+
+header {
+    max-width: 1160px;
+    margin: auto;
+}
+
+.banner {
+    max-width: 1160px;
+    margin: auto;
+}
+
+.curriculum {
+    max-width: 1160px;
+    margin: auto;
+}
+
+.stories {
     max-width: 1160px;
     margin: auto;
 }
@@ -17,6 +35,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0px;
 }
 
 .logo-title {
@@ -39,6 +58,7 @@ main {
     align-items: center;
     gap: 20px;
     list-style: none;
+    padding: 0px;
 }
 
 .link-container li a {
@@ -81,6 +101,7 @@ main {
 
 .banner-title {
     font-size: 56px;
+    padding-bottom: 30px;
 }
 
 .primary-text {
@@ -95,6 +116,7 @@ main {
     font-weight: 500;
     font-size: 20px;
     margin-bottom: 36px;
+    line-height: 28px;
 }
 
 .secondary-btn {
@@ -109,6 +131,7 @@ main {
 
 .curriculum {
     padding: 60px 0px;
+    padding-bottom: 0px;
     background-image: url(../assets/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -117,7 +140,8 @@ main {
 .section-title {
     text-align: center;
     font-size: 56px;
-    margin: 80px 0px;
+    padding: 80px 0px;
+    margin: 0px;
 }
 
 .curriculum-cards {
@@ -150,7 +174,7 @@ main {
 .curriculum-card-description {
     font-size: 18;
     font-weight: 500;
-    color: #808080 ;
+    color: #808080;
     line-height: 30px;
 }
 
@@ -187,7 +211,6 @@ main {
 
 .curriculum-lower-btns {
     padding-top: 80px;
-    padding-bottom: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -201,4 +224,84 @@ main {
     border-radius: 100px;
     background-color: #FEA301;
     color: white;
+}
+
+.story-section {
+    padding: 60px 0px;
+    background-image: linear-gradient(to bottom, white, #f9e0b2a9);
+}
+
+.stories {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+}
+
+.stroy-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+}
+
+.story-card-title {
+    font-size: 26px;
+    margin: 20px 0px;
+}
+
+.floating-btn {
+    padding: 16px 30px;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    position: relative;
+    bottom: 28px;
+    left: 40px;
+}
+
+.aqua-btn {
+    background-color: #3CD8E8;
+}
+
+.grass-btn {
+    background-color: #95B226;
+}
+
+.deep-blue-btn {
+    background-color: #5D58F0;
+}
+
+.story-card h5 {
+    margin: 0px;
+    padding: 20px 25px;
+    line-height: 25px;
+}
+
+.story-card {
+    background-color: white;
+    border-radius: 16px;
+    overflow:hidden;
+}
+
+.stories-btn-container {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.stories-container {
+    background-image: url(../assets/bg.png);
+
+    background-size: cover;
+}
+
+.story-card img {
+    width: 100%;
+}
+
+.main-story-content {
+    padding: 0px 40px;
+}
+
+.main-story-content h4 {
+    margin-bottom: 40px;
+    margin-top: 0;
 }
