@@ -305,3 +305,65 @@ header {
     margin-bottom: 40px;
     margin-top: 0;
 }
+
+footer {
+    background-color: #01ACFD ;
+    padding: 80px 0px;
+}
+
+.footer-section {
+    max-width: 1160px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 90px ;
+    color: white;
+}
+
+.footer-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+}
+
+.footer-title img {
+    width: 80px;
+}
+
+.footer-description {
+    color: white;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap:15px ;
+
+}
+
+.footer-nav h4 {
+    font-size: 20px;
+}
+
+.footer-nav ul{
+    padding: 0px ;
+    
+}
+
+.footer-nav ul li {
+    list-style: none;
+    padding-top: 22px;
+}
+
+.social-img-container {
+    display: flex;
+    gap: 10px;
+    padding-top: 40px;
+}
